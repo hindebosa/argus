@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   ViewStyle,
 } from "react-native";
-import AText from "./AText";
+import AText from "./ArgusText";
 
 type ArgusButtonProps = {
   containerStyle?: ViewStyle;

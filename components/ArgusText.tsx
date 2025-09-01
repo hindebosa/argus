@@ -8,7 +8,7 @@ type ATextProps = TextProps & {
   size?: FontSize;
 };
 
-const AText = ({
+const ArgusText = ({
   children,
   weight = "regular",
   size = "mid",
@@ -58,4 +58,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default AText;
+export default ArgusText;
