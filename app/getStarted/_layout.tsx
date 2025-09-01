@@ -1,7 +1,7 @@
 import { Stack } from "expo-router";
 import React from "react";
 
-const OnboardingLayout = () => {
+function GetStartedLayout() {
   return (
     <Stack
       screenOptions={{
@@ -12,6 +12,6 @@ const OnboardingLayout = () => {
       }}
     />
   );
-};
+}
 
-export default OnboardingLayout;
+export default GetStartedLayout;

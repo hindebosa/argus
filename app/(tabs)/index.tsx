@@ -1,4 +1,4 @@
-import AText from "@/components/AText";
+import AText from "@/components/ArgusText";
 import { View } from "react-native";
 
 export default function HomeScreen() {
